@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 48px;
+  height: 48px;
+}
+
+.align {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.myMail {
+  font-size: 36px;
+}
+
+.section {
+  display: flex;
+}
+
+.navBar {
+  padding: 20px 40px 20px 10px;
+}
+
+.navItem {
+  padding: 20px 60px 20px 30px;
+}
+
+.navItem:hover {
+  background-color: rgba(244, 228, 228, 255);
+}
+
+/* main {
+  padding: 40px 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 180px 1fr 80px 100px;
+  line-height: 48px;
+  align-items: center;
+  border-bottom: 1px solid black;
+} */
+
+.messageWrap {
+  /* padding: 40px 40px; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 180px 1fr 80px 100px;
+  line-height: 48px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.greyText {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
+  /* white-space: nowrap; */
+}
+
+.message {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.attach {
+  margin: auto;
+}
